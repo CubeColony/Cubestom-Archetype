@@ -1,0 +1,5 @@
+{
+  "entrypoint": "${groupId}.${artifactId}.Extension",
+  "name": "${artifactId}",
+  "version": "${version}"
+}

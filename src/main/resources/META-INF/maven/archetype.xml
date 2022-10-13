@@ -1,0 +1,9 @@
+<archetype>
+  <id>archetype</id>
+  <sources>
+    <source>src/main/java/Extension.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>

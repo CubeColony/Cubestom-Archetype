@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.cubecolony</groupId>
+    <artifactId>quickstart</artifactId>
+    <version>1.0</version>
+    <packaging>maven-archetype</packaging>
+
+    <name>Cubestom Archetype</name>
+    <url>https://cubecolony.net</url>
+
+    <!-- Build -->
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>3.1.1</version>
+            </extension>
+        </extensions>
+    </build>
+
+    <!-- Deployment -->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>cubecolony-snapshots</id>
+            <url>https://maven.cubecolony.net/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>cubecolony-releases</id>
+            <url>https://maven.cubecolony.net/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
+</project>
