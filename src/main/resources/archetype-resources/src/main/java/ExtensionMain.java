@@ -1,4 +1,6 @@
-package $com.cubecolony;
+package ${groupId}.${artifactId};
+
+import net.minestom.server.extensions.Extension;
 
 /**
  * Cube Colony
