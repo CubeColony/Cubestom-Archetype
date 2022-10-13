@@ -3,7 +3,7 @@ package $com.cubecolony;
 /**
  * Cube Colony
  */
-public class App extends Extension {
+public class ExtensionMain extends Extension {
 
     @Override
     public void initialize() {
